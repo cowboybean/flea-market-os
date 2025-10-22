@@ -1,0 +1,23 @@
+{
+  "name": "flea-market",
+  "version": "1.0.0",
+  "description": "企业内部跳蚤市场系统",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "cd ../frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.4.0",
+    "sequelize": "^6.32.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "express-ip": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
